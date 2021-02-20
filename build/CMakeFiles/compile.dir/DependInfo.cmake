@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Departure/Desktop/CodeField/cpp/multipleFile/src/c.cpp" "C:/Users/Departure/Desktop/CodeField/cpp/multipleFile/build/CMakeFiles/compile.dir/src/c.cpp.obj"
-  "C:/Users/Departure/Desktop/CodeField/cpp/multipleFile/src/main.cpp" "C:/Users/Departure/Desktop/CodeField/cpp/multipleFile/build/CMakeFiles/compile.dir/src/main.cpp.obj"
+  "D:/CodeField/cpp/cppl/src/main.cpp" "D:/CodeField/cpp/cppl/build/CMakeFiles/compile.dir/src/main.cpp.obj"
+  "D:/CodeField/cpp/cppl/src/qurry.cpp" "D:/CodeField/cpp/cppl/build/CMakeFiles/compile.dir/src/qurry.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

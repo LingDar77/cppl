@@ -1,12 +1,12 @@
 [
 {
-  "directory": "C:/Users/Departure/Desktop/CodeField/cpp/multipleFile/build",
-  "command": "g++  @CMakeFiles/compile.dir/includes_CXX.rsp -g -o CMakeFiles\\compile.dir\\src\\c.cpp.obj -c C:\\Users\\Departure\\Desktop\\CodeField\\cpp\\multipleFile\\src\\c.cpp",
-  "file": "C:/Users/Departure/Desktop/CodeField/cpp/multipleFile/src/c.cpp"
+  "directory": "D:/CodeField/cpp/cppl/build",
+  "command": "g++  @CMakeFiles/compile.dir/includes_CXX.rsp -g -o CMakeFiles\\compile.dir\\src\\main.cpp.obj -c D:\\CodeField\\cpp\\cppl\\src\\main.cpp",
+  "file": "D:/CodeField/cpp/cppl/src/main.cpp"
 },
 {
-  "directory": "C:/Users/Departure/Desktop/CodeField/cpp/multipleFile/build",
-  "command": "g++  @CMakeFiles/compile.dir/includes_CXX.rsp -g -o CMakeFiles\\compile.dir\\src\\main.cpp.obj -c C:\\Users\\Departure\\Desktop\\CodeField\\cpp\\multipleFile\\src\\main.cpp",
-  "file": "C:/Users/Departure/Desktop/CodeField/cpp/multipleFile/src/main.cpp"
+  "directory": "D:/CodeField/cpp/cppl/build",
+  "command": "g++  @CMakeFiles/compile.dir/includes_CXX.rsp -g -o CMakeFiles\\compile.dir\\src\\qurry.cpp.obj -c D:\\CodeField\\cpp\\cppl\\src\\qurry.cpp",
+  "file": "D:/CodeField/cpp/cppl/src/qurry.cpp"
 }
 ]

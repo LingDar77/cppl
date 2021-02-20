@@ -66,10 +66,10 @@ RM = D:\cmake\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Departure\Desktop\CodeField\cpp\multipleFile
+CMAKE_SOURCE_DIR = D:\CodeField\cpp\cppl
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Departure\Desktop\CodeField\cpp\multipleFile\build
+CMAKE_BINARY_DIR = D:\CodeField\cpp\cppl\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -98,9 +98,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Departure\Desktop\CodeField\cpp\multipleFile\build\CMakeFiles C:\Users\Departure\Desktop\CodeField\cpp\multipleFile\build\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CodeField\cpp\cppl\build\CMakeFiles D:\CodeField\cpp\cppl\build\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Departure\Desktop\CodeField\cpp\multipleFile\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CodeField\cpp\cppl\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -141,33 +141,6 @@ compile/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\compile.dir\build.make CMakeFiles/compile.dir/build
 .PHONY : compile/fast
 
-src/c.obj: src/c.cpp.obj
-
-.PHONY : src/c.obj
-
-# target to build an object file
-src/c.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\compile.dir\build.make CMakeFiles/compile.dir/src/c.cpp.obj
-.PHONY : src/c.cpp.obj
-
-src/c.i: src/c.cpp.i
-
-.PHONY : src/c.i
-
-# target to preprocess a source file
-src/c.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\compile.dir\build.make CMakeFiles/compile.dir/src/c.cpp.i
-.PHONY : src/c.cpp.i
-
-src/c.s: src/c.cpp.s
-
-.PHONY : src/c.s
-
-# target to generate assembly for a file
-src/c.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\compile.dir\build.make CMakeFiles/compile.dir/src/c.cpp.s
-.PHONY : src/c.cpp.s
-
 src/main.obj: src/main.cpp.obj
 
 .PHONY : src/main.obj
@@ -195,6 +168,33 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\compile.dir\build.make CMakeFiles/compile.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/qurry.obj: src/qurry.cpp.obj
+
+.PHONY : src/qurry.obj
+
+# target to build an object file
+src/qurry.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\compile.dir\build.make CMakeFiles/compile.dir/src/qurry.cpp.obj
+.PHONY : src/qurry.cpp.obj
+
+src/qurry.i: src/qurry.cpp.i
+
+.PHONY : src/qurry.i
+
+# target to preprocess a source file
+src/qurry.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\compile.dir\build.make CMakeFiles/compile.dir/src/qurry.cpp.i
+.PHONY : src/qurry.cpp.i
+
+src/qurry.s: src/qurry.cpp.s
+
+.PHONY : src/qurry.s
+
+# target to generate assembly for a file
+src/qurry.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\compile.dir\build.make CMakeFiles/compile.dir/src/qurry.cpp.s
+.PHONY : src/qurry.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -204,12 +204,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... compile
-	@echo ... src/c.obj
-	@echo ... src/c.i
-	@echo ... src/c.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
+	@echo ... src/qurry.obj
+	@echo ... src/qurry.i
+	@echo ... src/qurry.s
 .PHONY : help
 
 
