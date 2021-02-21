@@ -168,33 +168,6 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\compile.dir\build.make CMakeFiles/compile.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
-src/qurry.obj: src/qurry.cpp.obj
-
-.PHONY : src/qurry.obj
-
-# target to build an object file
-src/qurry.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\compile.dir\build.make CMakeFiles/compile.dir/src/qurry.cpp.obj
-.PHONY : src/qurry.cpp.obj
-
-src/qurry.i: src/qurry.cpp.i
-
-.PHONY : src/qurry.i
-
-# target to preprocess a source file
-src/qurry.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\compile.dir\build.make CMakeFiles/compile.dir/src/qurry.cpp.i
-.PHONY : src/qurry.cpp.i
-
-src/qurry.s: src/qurry.cpp.s
-
-.PHONY : src/qurry.s
-
-# target to generate assembly for a file
-src/qurry.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\compile.dir\build.make CMakeFiles/compile.dir/src/qurry.cpp.s
-.PHONY : src/qurry.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -207,9 +180,6 @@ help:
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
-	@echo ... src/qurry.obj
-	@echo ... src/qurry.i
-	@echo ... src/qurry.s
 .PHONY : help
 
 

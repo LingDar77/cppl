@@ -4,7 +4,6 @@ file(REMOVE_RECURSE
   "../bin/compile.pdb"
   "../bin/libcompile.dll.a"
   "CMakeFiles/compile.dir/src/main.cpp.obj"
-  "CMakeFiles/compile.dir/src/qurry.cpp.obj"
 )
 
 # Per-language clean rules from dependency scanning.

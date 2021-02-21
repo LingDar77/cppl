@@ -6,9 +6,21 @@
 
 #IncludeRegexTransform: 
 
+../include/Blob.h
+vector
+-
+memory
+-
+string
+-
+Blob.h
+../include/Blob.h
+
 D:/CodeField/cpp/cppl/src/main.cpp
 iostream
 -
-
-D:/CodeField/cpp/cppl/src/qurry.cpp
+string
+-
+Blob.h
+D:/CodeField/cpp/cppl/src/Blob.h
 
