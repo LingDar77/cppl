@@ -1,14 +1,17 @@
 #include <iostream>
 #include <string>
-#include "Blob.h"
+#include "typeTransform.h"
+#include "notes.h"
+
 using namespace std;
-int main(int argc, char const *argv[])
+void tf(const int& i)
 {
-Blob<string> bi{"asd","add"};
-bi.push_back("aaa");
-cout<<(bi.front());
-
-
-    return 0;
+    cout<<i<<endl;
 }
 
+int main(int argc, char const *argv[])
+{
+    int i=10;
+    f4(tf,66);
+    return 0;
+}

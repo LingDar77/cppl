@@ -6,21 +6,19 @@
 
 #IncludeRegexTransform: 
 
-../include/Blob.h
-vector
+../include/notes.h
+
+../include/typeTransform.h
+type_traits
 -
-memory
--
-string
--
-Blob.h
-../include/Blob.h
 
 D:/CodeField/cpp/cppl/src/main.cpp
 iostream
 -
 string
 -
-Blob.h
-D:/CodeField/cpp/cppl/src/Blob.h
+typeTransform.h
+D:/CodeField/cpp/cppl/src/typeTransform.h
+notes.h
+D:/CodeField/cpp/cppl/src/notes.h
 
