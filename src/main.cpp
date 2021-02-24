@@ -11,7 +11,8 @@ void tf(const int& i)
 
 int main(int argc, char const *argv[])
 {
-    int i=10;
-    f4(tf,66);
+
+    print(cout,"asd","dsa","aasd");
+
     return 0;
 }

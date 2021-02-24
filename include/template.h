@@ -14,7 +14,7 @@ int compare(const char (&p1)[N], const char (&p2)[M])
 {
     return strcmp(p1, p2);
 }
-//! tmeplate can also be inline or constexpr but inline or constexpr should be put behind the temlate
+//! template can also be inline or constexpr but inline or constexpr should be put behind the temlate
 //! besides, to program nontype code, we have to follow two laws:
 //? parameters should be reference to const
 //* use const reference makes sure our function can be used in types which can not be copy, and makes it faster
@@ -34,14 +34,14 @@ int cmp(const T &t1, const T &t2) //! in this version, pointer can be alright
 //! btw, head files usually contain declarations and definations of template functions or template classes
 
 //* in some cases, when many files instantiate a same template costs much
-//* in this case, we can use explicit instantiation to avoid extro cost
+//* in this case, we can use explicit instantiation to avoid extra cost
 // extern template declaration //explicit instantiate declaration
-// template declaration  //explicit instantiate defination
+// template declaration  //explicit instantiate definition
 // in this form, declaration means a type or a function declaration
 #include "Blob.h"
 #include <string>
 extern template class Blob<std::string>;    //declarations
-template int compare(const int&,const int&);    //defination
+template int compare(const int&,const int&);    //definition
 
 
 template<typename A>
