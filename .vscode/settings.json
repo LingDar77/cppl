@@ -39,6 +39,10 @@
         "stdexcept": "cpp",
         "streambuf": "cpp",
         "typeinfo": "cpp",
-        "functional": "cpp"
+        "functional": "cpp",
+        "iterator": "cpp",
+        "hash_map": "cpp",
+        "unordered_set": "cpp",
+        "cstring": "cpp"
     }
 }

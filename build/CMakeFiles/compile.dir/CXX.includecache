@@ -7,6 +7,10 @@
 #IncludeRegexTransform: 
 
 ../include/notes.h
+memory
+-
+cstring
+-
 
 ../include/typeTransform.h
 type_traits
@@ -21,4 +25,6 @@ typeTransform.h
 D:/CodeField/cpp/cppl/src/typeTransform.h
 notes.h
 D:/CodeField/cpp/cppl/src/notes.h
+unordered_set
+-
 

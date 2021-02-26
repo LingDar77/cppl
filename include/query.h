@@ -13,7 +13,7 @@ class textQuery;
 class queryBase
 {
     //! this class will surppt:
-    //todo word qurry: get a certain line which contains a word
+    //todo word query: get a certain line which contains a word
     //todo logical not query: use ~ to find a certain line which do not have a certain word
     //todo logical or query: use | to find a certain line which contain any one word between given two words
     //todo logical and query: use & to find a certain line which contain given words the same time
