@@ -43,6 +43,10 @@
         "iterator": "cpp",
         "hash_map": "cpp",
         "unordered_set": "cpp",
-        "cstring": "cpp"
+        "cstring": "cpp",
+        "random": "cpp",
+        "numeric": "cpp",
+        "ctime": "cpp",
+        "map": "cpp"
     }
 }

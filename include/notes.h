@@ -7,6 +7,7 @@
 #define FED24FFA_5D82_4EA6_B205_AC974182A6CA
 #include <memory>
 #include <cstring>
+#include <iostream>
 template <typename T>
 auto exp1(T &&t) -> decltype(t)
 {
@@ -158,5 +159,48 @@ namespace std
     }
 
 }
+
+//! template class partial specialization
+//* we can only partial specialize template class or its class menber function
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #endif /* FED24FFA_5D82_4EA6_B205_AC974182A6CA */

@@ -6,11 +6,19 @@
 
 #IncludeRegexTransform: 
 
-../include/notes.h
+../include/charactor.h
+
+../include/pool.h
+string
+-
+ctime
+-
+random
+-
 memory
 -
-cstring
--
+charactor.h
+../include/charactor.h
 
 ../include/typeTransform.h
 type_traits
@@ -23,8 +31,10 @@ string
 -
 typeTransform.h
 D:/CodeField/cpp/cppl/src/typeTransform.h
-notes.h
-D:/CodeField/cpp/cppl/src/notes.h
+pool.h
+D:/CodeField/cpp/cppl/src/pool.h
 unordered_set
+-
+map
 -
 

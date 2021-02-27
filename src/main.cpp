@@ -1,22 +1,21 @@
 #include <iostream>
 #include <string>
 #include "typeTransform.h"
-#include "notes.h"
-
+#include "pool.h"
 using namespace std;
-void tf(const int& i)
-{
-    cout<<i<<endl;
-}
 #include <unordered_set>
+#include <map>
 int main(int argc, char const *argv[])
 {
-    unordered_set<tc> ts;
-    tc t1(1,"asd"),t2(-1,"dds");
-    ts.insert(t1);
-    ts.insert(t2);
-    for(auto& i:ts)
-        cout<<i<<endl;
-
+    pool p;
+    map<std::string, unsigned> m;
+    for (unsigned i = 0; i < 100; ++i)
+    {
+        ++m[p.pickOne()->print()];
+    }
+    std::cout << m["n"] << std::endl;
+    std::cout << m["r"] << std::endl;
+    std::cout << m["sr"] << std::endl;
+    std::cout << m["ur"] << std::endl;
     return 0;
 }
