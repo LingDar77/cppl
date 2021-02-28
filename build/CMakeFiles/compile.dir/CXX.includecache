@@ -7,6 +7,10 @@
 #IncludeRegexTransform: 
 
 ../include/charactor.h
+set
+-
+pool.h
+-
 
 ../include/pool.h
 string
@@ -17,8 +21,8 @@ random
 -
 memory
 -
-charactor.h
-../include/charactor.h
+set
+-
 
 ../include/typeTransform.h
 type_traits
@@ -33,8 +37,12 @@ typeTransform.h
 D:/CodeField/cpp/cppl/src/typeTransform.h
 pool.h
 D:/CodeField/cpp/cppl/src/pool.h
+charactor.h
+D:/CodeField/cpp/cppl/src/charactor.h
 unordered_set
 -
 map
+-
+algorithm
 -
 

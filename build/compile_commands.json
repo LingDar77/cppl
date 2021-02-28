@@ -1,7 +1,7 @@
 [
 {
   "directory": "D:/CodeField/cpp/cppl/build",
-  "command": "g++  @CMakeFiles/compile.dir/includes_CXX.rsp -g -o CMakeFiles\\compile.dir\\src\\main.cpp.obj -c D:\\CodeField\\cpp\\cppl\\src\\main.cpp",
+  "command": "g++  @CMakeFiles/compile.dir/includes_CXX.rsp -O3 -DNDEBUG -o CMakeFiles\\compile.dir\\src\\main.cpp.obj -c D:\\CodeField\\cpp\\cppl\\src\\main.cpp",
   "file": "D:/CodeField/cpp/cppl/src/main.cpp"
 }
 ]
